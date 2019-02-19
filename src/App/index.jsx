@@ -75,10 +75,15 @@ class App extends Component {
               </Menu.Item>
             </Menu>
             <Segment.Group>
-              <Segment inverted style={{ borderBottom: "red" }}>
+              <Segment inverted>hello</Segment>
+              <Segment inverted>
                 hello
+                <Label color="grey">
+                  <Label.Detail>Adrienne</Label.Detail>
+                </Label>
+                <Label color="grey">Zoe</Label>
+                <Label color="grey">Nan</Label>
               </Segment>
-              <Segment inverted> hello </Segment>
               <Segment inverted> hello </Segment>
               <Segment inverted> hello </Segment>
             </Segment.Group>
