@@ -1,0 +1,9 @@
+html,
+body {
+  background-color: #1d1f21 !important;
+}
+
+.ui.small.input input {
+  background-color: #2d3436 !important;
+  color: white !important;
+}
