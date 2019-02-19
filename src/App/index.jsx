@@ -17,8 +17,11 @@ class App extends Component {
     return (
       <Grid columns={3} divided inverted padded>
         <Grid.Row style={{ height: "100vh" }}>
-          <Grid.Column width={3}>
-            <Menu size="small" icon inverted vertical>
+          <Grid.Column
+            width={2}
+            style={{ margin: 0, padding: 0, border: "none" }}
+          >
+            <Menu size="small" icon inverted vertical style={{ width: "100%" }}>
               <Menu.Item>
                 <Icon name="code" />
                 SNIPPETO
@@ -43,7 +46,10 @@ class App extends Component {
               </Menu.Item>
             </Menu>
           </Grid.Column>
-          <Grid.Column width={4} style={{ padding: 0 }}>
+          <Grid.Column
+            width={4}
+            style={{ margin: 0, padding: 0, border: "none" }}
+          >
             <Menu inverted vertical style={{ width: "100%", margin: 0 }}>
               <Menu.Item
                 name="search"
@@ -78,8 +84,11 @@ class App extends Component {
               <Segment inverted> hello </Segment>
             </Segment.Group>
           </Grid.Column>
-          <Grid.Column width={9}>
-            <Segment inverted>
+          <Grid.Column
+            width={10}
+            style={{ margin: 0, padding: 0, border: "none" }}
+          >
+            <Segment inverted style={{ height: "100%", width: "100%" }}>
               <Editor />
             </Segment>
           </Grid.Column>
