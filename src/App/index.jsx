@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <Grid columns={3} divided inverted padded>
         <Grid.Row style={{ height: "100vh" }}>
-          <Grid.Column width={2}>
+          <Grid.Column width={3}>
             <Menu size="small" icon inverted vertical>
               <Menu.Item>
                 <Icon name="code" />
@@ -25,25 +25,15 @@ class App extends Component {
               </Menu.Item>
             </Menu>
             <Menu size="small" vertical inverted pointing>
-              <Menu.Item name="Snippets">
-                <Accordion inverted>
-                  <Accordion.Title>
-                    <Icon name="angle right" />
-                    Snippets
-                  </Accordion.Title>
-                  <Accordion.Content active>
-                    <Menu.Item name="pinned">
-                      <Label color="blue">51</Label>
-                      <Icon name="map pin" />
-                      Pinned
-                    </Menu.Item>
-                    <Menu.Item name="today">
-                      <Label color="teal">51</Label>
-                      <Icon name="calendar alternate" />
-                      Today
-                    </Menu.Item>
-                  </Accordion.Content>
-                </Accordion>
+              <Menu.Item name="pinned">
+                <Label color="blue">51</Label>
+                <Icon name="map pin" />
+                Pinned
+              </Menu.Item>
+              <Menu.Item name="today">
+                <Label color="teal">51</Label>
+                <Icon name="calendar alternate" />
+                Today
               </Menu.Item>
 
               <Menu.Item name="spam">
@@ -53,7 +43,7 @@ class App extends Component {
               </Menu.Item>
             </Menu>
           </Grid.Column>
-          <Grid.Column width={3} style={{ padding: 0 }}>
+          <Grid.Column width={4} style={{ padding: 0 }}>
             <Menu inverted vertical style={{ width: "100%", margin: 0 }}>
               <Menu.Item
                 name="search"
@@ -88,7 +78,7 @@ class App extends Component {
               <Segment inverted> hello </Segment>
             </Segment.Group>
           </Grid.Column>
-          <Grid.Column width={11}>
+          <Grid.Column width={9}>
             <Segment inverted>
               <Editor />
             </Segment>
