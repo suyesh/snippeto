@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "semantic-ui-css/semantic.min.css";
 
-//Local Imports
+// eslint-disable-next-line
 import "./lib/brace";
 import * as serviceWorker from "./lib/serviceWorker";
 import "./assets/css/main.css";

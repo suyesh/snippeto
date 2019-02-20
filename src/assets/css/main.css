@@ -1,9 +1,53 @@
 html,
 body {
-  background-color: #1d1f21 !important;
+  background-color: #1b1c1d !important;
+}
+
+.input:focus {
+  outline: none;
 }
 
 .ui.small.input input {
   background-color: #2d3436 !important;
-  color: white !important;
+  color: #ead9b4 !important;
+}
+
+.ace_content {
+  background-color: #1b1c1d !important;
+}
+
+.ui.card {
+  background-color: #202124 !important;
+  border-radius: 0 !important;
+  box-shadow: none;
+  margin-bottom: 1px !important;
+  margin-top: 0px !important;
+  border-bottom: 1px solid #485460;
+  cursor: pointer;
+}
+
+.ui.card:hover {
+  -webkit-box-shadow: -1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  background-color: #1e272e !important;
+}
+
+.ui.card .content .header,
+.ui.card .content .description,
+.item,
+.button {
+  color: #ead9b4 !important;
+}
+
+.ui.card .content .meta .date {
+  color: #506949 !important;
+}
+
+.ui.label {
+  background-color: #2d3436 !important;
+}
+
+.ui.label {
+  color: #c2859a !important;
 }

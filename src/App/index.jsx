@@ -6,7 +6,6 @@ import {
   Menu,
   Label,
   Icon,
-  Accordion,
   Input,
   Button,
   Card
@@ -70,27 +69,65 @@ class App extends Component {
                 </Button>
               </Menu.Item>
             </Menu>
-            <Segment.Group>
-              <Segment inverted>hello</Segment>
-              <Segment inverted>
-                hello
-                <Label color="grey">
-                  <Label.Detail>Adrienne</Label.Detail>
-                </Label>
-                <Label color="grey">Zoe</Label>
-                <Label color="grey">Nan</Label>
-              </Segment>
-              <Segment inverted> hello </Segment>
-              <Segment inverted> hello </Segment>
-            </Segment.Group>
+            <Card style={{ width: "100%" }} inverted>
+              <Card.Content>
+                <Card.Header>Matthew</Card.Header>
+                <Card.Meta>
+                  <span className="date">Joined in 2015</span>
+                </Card.Meta>
+                <Card.Description>
+                  Matthew is a musician living in Nashville.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+              </Card.Content>
+            </Card>
+
+            <Card style={{ width: "100%" }} inverted>
+              <Card.Content>
+                <Card.Header>Matthew</Card.Header>
+                <Card.Meta>
+                  <span className="date">Joined in 2015</span>
+                </Card.Meta>
+                <Card.Description>
+                  Matthew is a musician living in Nashville.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+              </Card.Content>
+            </Card>
+
+            <Card style={{ width: "100%" }} inverted>
+              <Card.Content>
+                <Card.Header>Matthew</Card.Header>
+                <Card.Meta>
+                  <span className="date">Joined in 2015</span>
+                </Card.Meta>
+                <Card.Description>
+                  Matthew is a musician living in Nashville.
+                </Card.Description>
+              </Card.Content>
+              <Card.Content extra>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+                <Label as="a">Mail</Label>
+              </Card.Content>
+            </Card>
           </Grid.Column>
           <Grid.Column
             width={10}
             style={{ margin: 0, padding: 0, border: "none" }}
           >
-            <Segment inverted style={{ height: "100%", width: "100%" }}>
-              <Editor />
-            </Segment>
+            <Editor />
           </Grid.Column>
         </Grid.Row>
       </Grid>

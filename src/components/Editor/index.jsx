@@ -14,7 +14,7 @@ class Editor extends Component {
     return (
       <AceEditor
         mode="javascript"
-        theme="tomorrow_night"
+        theme="gruvbox"
         onChange={this.onChange}
         name="editor"
         editorProps={{ $blockScrolling: true }}
@@ -26,7 +26,7 @@ class Editor extends Component {
         setOptions={{
           animatedScroll: true,
           enableMultiSelect: true,
-          fontSize: "15px",
+          // fontSize: "15px",
           fixWidthGutter: true
         }}
       />
