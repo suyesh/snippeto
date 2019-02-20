@@ -8,7 +8,8 @@ import {
   Icon,
   Input,
   Button,
-  Card
+  Card,
+  Dropdown
 } from "semantic-ui-react";
 
 class App extends Component {
@@ -69,6 +70,7 @@ class App extends Component {
                 </Button>
               </Menu.Item>
             </Menu>
+
             <Card style={{ width: "100%" }} inverted>
               <Card.Content>
                 <Card.Header>Matthew</Card.Header>

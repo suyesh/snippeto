@@ -10,6 +10,8 @@ body {
 .ui.small.input input {
   background-color: #2d3436 !important;
   color: #ead9b4 !important;
+  box-shadow: none;
+  border: none;
 }
 
 .ace_content {
@@ -27,9 +29,9 @@ body {
 }
 
 .ui.card:hover {
-  -webkit-box-shadow: -1px 2px 13px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px 2px 13px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -8px -2px 5px -7px rgba(194, 133, 154, 1);
+  -moz-box-shadow: -8px -2px 5px -7px rgba(194, 133, 154, 1);
+  box-shadow: -8px -2px 5px -7px rgba(194, 133, 154, 1);
   background-color: #1e272e !important;
 }
 
@@ -50,4 +52,14 @@ body {
 
 .ui.label {
   color: #c2859a !important;
+}
+
+.ui.blue.label {
+  background-color: #ead9b4 !important;
+  color: #506949 !important;
+}
+
+.ui.teal.label {
+  background-color: #506949 !important;
+  color: #ead9b4 !important;
 }
