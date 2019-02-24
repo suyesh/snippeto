@@ -14,8 +14,9 @@ body {
   border: none;
 }
 
-.ace_content {
-  background-color: #1b1c1d !important;
+.ace_content,
+.ace_gutter-cell {
+  background-color: #1e272e !important;
 }
 
 .ui.card {
