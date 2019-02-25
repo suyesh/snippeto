@@ -26,7 +26,7 @@ class Editor extends Component {
         setOptions={{
           animatedScroll: true,
           enableMultiSelect: true,
-          // fontSize: "15px",
+          fontSize: "15px",
           fixWidthGutter: true
         }}
       />

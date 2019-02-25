@@ -15,7 +15,8 @@ body {
 }
 
 .ace_content,
-.ace_gutter-cell {
+.ace_gutter-cell,
+.ace_gutter {
   background-color: #1e272e !important;
 }
 
