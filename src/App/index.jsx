@@ -1,16 +1,6 @@
 import React, { Component } from "react";
 import { Editor, SiteContainer, Column, Brand } from "../components";
-import {
-  Segment,
-  Grid,
-  Menu,
-  Label,
-  Icon,
-  Input,
-  Button,
-  Card,
-  Dropdown
-} from "semantic-ui-react";
+import { Menu, Label, Icon, Input, Button, Card } from "semantic-ui-react";
 
 class App extends Component {
   render() {
