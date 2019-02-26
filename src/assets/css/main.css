@@ -31,9 +31,9 @@ body {
 }
 
 .ui.card:hover {
-  -webkit-box-shadow: -8px -2px 5px -7px rgba(194, 133, 154, 1);
-  -moz-box-shadow: -8px -2px 5px -7px rgba(194, 133, 154, 1);
-  box-shadow: -8px -2px 5px -7px rgba(194, 133, 154, 1);
+  -webkit-box-shadow: -8px -2px 5px -7px rgba(172, 174, 55, 1);
+  -moz-box-shadow: -8px -2px 5px -7px rgba(172, 174, 55, 1);
+  box-shadow: -8px -2px 5px -7px rgba(172, 174, 55, 1);
   background-color: #1e272e !important;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .ui.label {
-  color: #c2859a !important;
+  color: #acae37 !important;
 }
 
 .ui.blue.label {
